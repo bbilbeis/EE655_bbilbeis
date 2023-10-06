@@ -1,1 +1,1 @@
-# EE_590_Assignment-1
+# EE_590_Assignments

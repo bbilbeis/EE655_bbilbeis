@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Application</title>
+</head>
+<body>
+    <h1>IoT Application</h1>
+    
+    <!-- Device Registration -->
+    <h2>Register Device</h2>
+    <form id="registerForm">
+        Device ID: <input type="text" id="deviceId" required>
+        Device Type: <input type="text" id="Type" required>
+        <button type="submit">Register</button>
+    </form>
+    
+    <!-- Send Data -->
+    <h2>Send Data</h2>
+    <form id="sendDataForm">
+        Device ID: <input type="text" id="dataDeviceId" required>
+        Data: <input type="text" id="Data" required>
+        <button type="submit">Send Data</button>
+    </form>
+    
+    <!-- Send Command -->
+    <h2>Send Command</h2>
+    <form id="commandForm">
+        Device ID: <input type="text" id="commandDeviceId" required>
+        Command: <input type="text" id="Command" required>
+        <button type="submit">Send Command</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

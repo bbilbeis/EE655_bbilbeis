@@ -1,0 +1,14 @@
+[
+  {
+    "deviceId": "12345",
+    "deviceType": "sensor"
+  },
+  {
+    "deviceId": "DeviceIDOne",
+    "deviceType": "iPhone"
+  },
+  {
+    "deviceId": "123456",
+    "deviceType": "sensor"
+  }
+]
